@@ -95,12 +95,15 @@ function Hero() {
 
           {/* ✅ Working Resume Download Link */}
           <a
-            href="public/pdf/Nabris_Professional_Resume.pdf"
-            download
-            className="inline-block text-black bg-[#FFA552] font-semibold px-5 py-2 rounded-full shadow hover:bg-[#FF9472] transition"
-          >
-            📄 Download CV
-          </a>
+  href="/pdf/Nabris_Professional_Resume.pdf"
+  download
+  className="inline-block text-black bg-[#FFA552] font-semibold px-5 py-2 rounded-full shadow hover:bg-[#FF9472] transition"
+>
+  📄 Download CV
+</a>
+
+
+
         </div>
       </div>
 
