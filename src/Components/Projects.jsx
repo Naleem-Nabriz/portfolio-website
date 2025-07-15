@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
-image: "/images/online.jpg"
 
 function Projects() {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -10,7 +9,7 @@ function Projects() {
       title: "Online Marketing Store System",
       description:
         "An Online Marketing Store automates product listings, orders, and customer account management. It handles inventory, sales tracking, payments, and provides notifications and reports to improve marketing and decision-making",
-      image: "/public/images/online.jpg",
+      image: "/images/online.jpg",
       technologies: ["HTML", "CSS", "PHP", "MySQL"],
       github: "https://github.com/yourusername/online-marketing-store",
       category: "Web",
@@ -19,7 +18,7 @@ function Projects() {
       title: "Online Property Management System",
       description:
         "Java-based system for landlords to manage tenants, rents, property listings, and maintenance requests in one platform.",
-      image: "/public/images/land.png",
+      image: "/images/land.png",
       technologies: ["Java", "MySQL", "JDBC"],
       github: "https://github.com/Naleem-Nabriz/PropertyManagement-OOP",
       category: "Web",
@@ -28,7 +27,7 @@ function Projects() {
       title: "Cloud Kitchen System",
       description:
         "The Cloud Kitchen System is developed using the MERN stack to manage online food orders and kitchen operations efficiently. It streamlines order processing, delivery tracking, and menu management for a smooth customer experience.",
-      image: "/public/images/cloud.png",
+      image: "/images/cloud.png",
       technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
       github: "https://github.com/Naleem-Nabriz/CloudKitchen",
       category: "Web",
@@ -37,7 +36,7 @@ function Projects() {
       title: "Personal Finance Tracker (Mobile)",
       description:
         "Helps users manage expenses, income, and savings with charts and categories using Kotlin and SQLite.",
-      image: "/public/images/money.png",
+      image: "/images/money.png",
       technologies: ["Kotlin", "Android Studio", "SQLite"],
       github: "https://github.com/Naleem-Nabriz/Personal-Finance-Tracker-",
       category: "Mobile",
@@ -46,7 +45,7 @@ function Projects() {
       title: "BLUEWAVE HOTEL",
       description:
         "BlueWave Hotel is a welcoming place where guests can enjoy clean rooms, friendly service, and great facilities. Perfect for travelers looking for comfort and convenience during their stay.",
-      image: "/public/images/hotel.png",
+      image: "/images/hotel.png",
       technologies: ["HTML", "CSS"],
       github: "https://github.com/Naleem-Nabriz/Blue-Wave-hotel",
       category: "Web",
@@ -55,7 +54,7 @@ function Projects() {
       title: "Rent Car App (Figma)",
       description:
         "An innovative car rental app prototype crafted in Figma, showcasing a clean design and user-centric features to simplify vehicle selection, booking, and payment processes.",
-      image: "/public/images/car.png",
+      image: "/images/car.png",
       technologies: ["Figma"],
       github: "https://github.com/yourusername/rent-car-app",
       category: "Design",
@@ -64,7 +63,7 @@ function Projects() {
       title: "9BEATS Music App",
       description:
         "A sleek music app that lets users stream, search, and enjoy their favorite songs anytime. Built for smooth listening and a personalized audio experience.",
-      image: "/public/images/music.png",
+      image: "/images/music.png",
       technologies: ["Figma"],
       github: "https://github.com/yourusername/music-app",
       category: "Design",
@@ -73,7 +72,7 @@ function Projects() {
       title: "Online Perfume Store",
       description:
         "Our website offers a seamless shopping experience for perfume lovers. Explore a curated collection of premium scents with secure checkout and fast delivery.",
-      image: "/public/images/perfume.png",
+      image: "/images/perfume.png",
       technologies: ["React.js"],
       github: "https://github.com/Naleem-Nabriz/perfume-Store",
       category: "Web",
